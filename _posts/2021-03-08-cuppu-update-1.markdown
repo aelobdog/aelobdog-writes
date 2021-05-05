@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Update on Cuppu x86"
+title:  "Cuppu86 Updates #1"
 date:   2021-03-08 10:00:00 +0530
 categories:
 ---
