@@ -1,13 +1,13 @@
-# New Blog Tool
+# @[❮](https://aelobdog.github.io/aelobdog-writes) New Blog Tool
 #### 07-07-2021
 
 I just spent about an hour or two reworking my blog tool. The new version, @[lih2](https://github.com/aelobdog/lih2) is much better than what I was using before. Lih2 is a shell script, instead of a Go program that @[lih](https://github.com/aelobdog/lih) was. It now automatically generates the blog with the posts ordered, latest first. It also "recompiles" the blog index and all the blog posts, which means that making a small change somewhere in one blog post gets incorporated into the blog naturally without needing any manual intervention like lih did.
 
 So what's changed ? lih2,
-   - automatically orders posts (latest on top)
-   - automatically incorporates changes made to posts
-   - allows deletion of blog posts by moving a file out of the 'posts' directory
-   - allows renaming of blog posts by changing filename of post
+   - /automatically orders posts (latest on top)/
+   - /automatically incorporates changes made to posts/
+   - /allows deletion of blog posts by moving a file out of the 'posts' directory/
+   - /allows renaming of blog posts by changing filename of post/
 
 That's it for now !
-If you're interested in the tool, clone it or fork it and send me a link to your project via email at @[dev.godboleashwin@gmail.com](dev.godboleashwin@gmail.com)
+If you're interested in the tool, clone it or fork it and send me a link to your project via email at @[dev.godboleashwin@gmail.com](mailto:dev.godboleashwin@gmail.com)
