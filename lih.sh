@@ -70,10 +70,10 @@ make() {
       title=`echo "$filename" | cut -d "_" -f1 | sed "s/-/ /g"`
       # write all links to (sitefl) index file
       echo "### @[$title]($name/composts/$i)\n" >> $1/index && echo "LOG : added [ $title ] to index (sitefl)"
-      # generate index.html
-      ./sitefl/sitefl -nts ./sitefl/defaults/templateHTML.html ./sitefl/defaults/templateCSS.css $name/index index.html && echo "LOG : index.html created."
    done
-
+   
+   # generate index.html
+   ./sitefl/sitefl -nts ./sitefl/defaults/templateHTML.html ./sitefl/defaults/templateCSS.css $name/index index.html && echo "LOG : index.html created."
    echo "done."
 }
 
