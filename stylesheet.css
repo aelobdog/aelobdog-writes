@@ -8,20 +8,21 @@
 body {
     margin: 0;
     width: 100%;
-    background-color: #323232;
-    color: #fefefe;
+    color: #202040;
+    background-color: #eee;
 }
 
 code {
     padding: 3px;
-    background-color: #fefefe;
-    color: #323232;
+    background-color: #202040;
+    color: #eee;
     border-radius: 3px;
 }
 
 .mascot {
     width: 25%;
     height: auto;
+    border-radius: 3%;
 }
 
 .content {
@@ -32,8 +33,6 @@ code {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.4;
     text-align: justify;
-    background-color: #323232;
-    color: #fefefe;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,14 +48,16 @@ a {
     padding-bottom: 3px;
     text-decoration: none;
     font-family: monospace;
-    background-color: #ffccaa;
-    color: #222;
-    padding: 3px;
+    color: #77d;
     border-radius: 3px;
 }
 
 a:hover {
-    background-color: #eebb99;
+    border-bottom: solid #55a 4px;
+}
+
+.main_date {
+    display: inline;
 }
 
 @media only screen and (max-width: 768px) {
